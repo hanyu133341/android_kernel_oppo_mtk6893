@@ -48,7 +48,7 @@ jobs:
 
 
 
-    - name: 更新 ksu
+    - name: 设置kernelsu
       run: |
         cd $GITHUB_WORKSPACE/kernel_workspace/android_kernel_oppo_mtk6893
         rm -rf KernelSU
